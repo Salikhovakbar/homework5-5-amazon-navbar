@@ -50,7 +50,7 @@ function remove(){
 </div>
 </div>
 <i style={{cursor: 'pointer'}}  onClick={navbarClick}><FiMenu/></i>
-<div style={navbarMenu ? {display: 'block'} : {display: "none"}} className="background-font"></div>
+<div style={navbarMenu ? {display: 'flex'} : {display: "none"}} className="background-font"></div>
     </>
   )
 }
